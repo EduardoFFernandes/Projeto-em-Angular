@@ -22,3 +22,10 @@ https://material.io/icons/
 Command Bind:
 Ex: <button (click)="fucntion(param)">Botão</button> //Bind para funcoes
     <p [id]="Atributo"></p> // Bind para atributos
+
+
+Comandos do GitHub:
+Para adicionar os arquivos do repositorio local para o repositorio do gitHub
+git remote add origin https://github.com/EduardoFFernandes/Projeto-em-Angular.git
+git branch -M main
+git push -u origin main
