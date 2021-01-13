@@ -18,3 +18,7 @@ ng g c views/home
 
 Referencia do Material Icons:
 https://material.io/icons/
+
+Command Bind:
+Ex: <button (click)="fucntion(param)">Botão</button> //Bind para funcoes
+    <p [id]="Atributo"></p> // Bind para atributos
