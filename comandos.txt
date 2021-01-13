@@ -1,6 +1,19 @@
-npm start
+INSTALA O json-server:
 json-server --watch db.json --port 3001
+INICIA O SERVIDOR(Json-Server)
+npm start
+INICIA O FRONTEND:
+ng serve
+INSTALA O ANGULAR-CLI
 sudo npm i -g @angular/cli
+
+CRIACAO DO PROJETO:
 ng new frontend --minimal
+
+CRIACAO DE COMPONENTES:
 ng g c components/template/header
 ng g c components/templates/footer
+ng g c components/templates/nav
+
+Referencia do Material Icons:
+https://material.io/icons/
