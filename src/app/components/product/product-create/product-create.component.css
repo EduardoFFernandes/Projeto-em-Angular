@@ -1,3 +1,26 @@
 button {
     margin-right: 10px;
 }
+
+
+/* .card {
+    background-color: #6e6e6e;
+} */
+
+.card mat-card-title {
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Cor de fundo do autocomplete */
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+    -webkit-text-fill-color: black !important;
+    -webkit-text-size-adjust: 1rem;
+}
